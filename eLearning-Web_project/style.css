@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.nav-item{
+    color: rgb(31, 30, 30);
+}
+.nav-item{
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.bx{
+    margin-right: 20px;
+}
+.d-flex .btn.btn-warning{
+    color: #fff;
+    background-color: #06BBCC;
+    border: 1px solid #06BBCC;
+    width: 150px;
+    text-align: center;
+    padding-left: 19px;
+}
+.d-flex .btn.btn-warning:hover{
+    background-color: #0ad2e4;
+    color: #fff;
+    border: 1px solid #06BBCC;
+}
+.head-1{
+    color: #06BBCC;
+}
+.head-2{
+    color: rgb(45, 44, 44);
+}
+.head-2:hover,
+.head-2.active{
+    color: #06BBCC;
+}
+.btn.btn-info{
+    color: #fff;
+    background-color: #06BBCC;
+    border: 1px solid #06BBCC;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+}
+.btn.btn-info:hover{
+    background-color: #0ad2e4;
+    color: #fff;
+    border: 1px solid #06BBCC;
+}
+/* SLIDE SECTION */
+.carousel-item .img{
+    height: 600px;
+}
+.carousel-caption.d-none.d-md-block{
+    left: 70px;
+    top: 30%;
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+}
+.overlay {
+    width: 100%;
+    height: 144vh;
+    position: absolute;
+    top:12.5%;
+    left: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, .7) 50%, rgba(0, 0, 0, .7) 50%);
+    background-size: 3px 3px;
+    z-index: -.999;
+}
+.head-3{
+    color: #06BBCC;
+    animation-delay: 0.5s;
+}
+.head-4{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-delay: 1s;
+}
+.head-5{
+    font-size: 20px;
+    font-weight: 500;
+    animation-delay: 1.5s;
+}
+.btn.btn-light{
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    animation-delay: 2s;
+}
+.btn.btn-light:hover{
+    background-color: #efe8e8;
+}
+.arrow{
+    height: 45px;
+    width: 45px;
+    background-color: #06BBCC;
+    z-index: 2;
+    right: 40px;
+    top: 83%;
+}
+.arrow i:hover{
+    cursor: pointer;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+        transition: 4s ease;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .carousel-item.active{
+        height: auto;
+    }
+    .overlay{
+      height: 0;
+    }
+}
+/* CARD-4 GRID SECTION  */
+.con-2{
+    height: 350px;
+}
+.box-1{
+    background-color: #e5fbfd;
+}.box-1 i{
+    color: #06BBCC;
+    font-size: 50px;
+}
+.box-1:hover{
+    color: #fff;
+    background-color: #06BBCC;
+    transition: 1s;
+}
+.box-1:hover i{
+    color: #fff;
+    transition: 1s;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .con-2{
+        height: auto;
+    }  
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        padding: 0;
+        margin-top: 5px;
+        margin-bottom: 4px;
+        margin-left: 0;
+    }
+  }
+/* 2 GRID SECTION  */ 
+.head-6{
+    color: #06BBCC;
+}
+.con-3 i{
+    color: #06BBCC;
+}
+ /* Catagories */
+.head-7{
+    color: #06BBCC;
+}
+.img-4{
+    height: 240px;
+}
+.img-7{
+    height: 100%;
+}
+.badge {
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+.con-5 .btn-2 a{
+    bottom: 10px;
+    right: 80px;
+    z-index: 2;
+    width: 130px;
+    height: 30px;
+}
+ /* Catagories  */
+ @media (min-width: 320px) and (max-width: 480px) {
+    .column-1 {
+        width: 100%;
+    }
+ }
+/* INSTRUCTORS  */
+.box-2{
+    background-color: #e5fbfd;
+}
+.p1 i{
+    color: #06BBCC;
+}
+/* TESTIMONIALS */
+
+.back-1{
+    background-color: #06BBCC;
+}
+/* Footer */
+.con-8{
+    background-color: #181d38;
+}
+.list-1{
+   list-style-type: none;
+}
+.list-2 li{
+    list-style-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23FFFFFF"><path d="M8 21c-.26 0-.51-.1-.71-.29a.996.996 0 0 1 0-1.41l7.29-7.29-7.29-7.29A.996.996 0 1 1 8.7 3.31l8 8c.39.39.39 1.02 0 1.41l-8 8c-.2.2-.45.29-.71.29Z"></path></svg>');
+    font-size: 1em;
+ }
+ .list-2 li::marker{
+    font-size: 1.3em;
+ }
+ @media (min-width: 320px) and (max-width: 480px) {
+    .r1{
+        margin-left: 25px;
+    } 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
