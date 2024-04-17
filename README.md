@@ -13,7 +13,7 @@ Using HTML5, CSS3,Bootstrap </br>
 ![Screenshot 2024-04-16 220852](https://github.com/Pradeep-surya6618/eLearning-Web_Project/assets/104722472/72281776-678d-4ab5-81f6-7ef014651029)
 ![Screenshot 2024-04-16 220902](https://github.com/Pradeep-surya6618/eLearning-Web_Project/assets/104722472/824b69b0-8d08-4049-89f8-a642b04f9442)
 
-<h1>Contact Output👇</h1>
+<h1>Contact page Output👇</h1>
 
 
 ![Screenshot 2024-04-16 220911](https://github.com/Pradeep-surya6618/eLearning-Web_Project/assets/104722472/7f428bb9-4e90-4cb6-a158-db5ce78d83f0)
